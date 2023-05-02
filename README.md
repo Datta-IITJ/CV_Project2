@@ -7,7 +7,10 @@ Image segmentation is an important problem in computer vision that involves divi
 <p align="center">
   <img src="Output_images/SegmentationwithUNET_groundtruth_finaloutput3.png" alt="image_description" width="400"/><br>
  </p>
-3. Using the DenseNet121 Model along with the U-NET architecture: DenseNet is another deep learning architecture that has shown good performance for image segmentation. In this approach, the DenseNet121 model is used as the backbone for the U-NET architecture.
+2. Using the DenseNet121 Model along with the U-NET architecture: DenseNet is another deep learning architecture that has shown good performance for image segmentation. In this approach, the DenseNet121 model is used as the backbone for the U-NET architecture.
+<p align="center">
+  <img src="Output_images/DENSENET_withUNET_finaloutput2.png" alt="image_description" width="400"/><br>
+ </p>
 4. Using the RESNET50 Model along with the U-NET architecture: This method uses the RESNET50 model as the backbone for the U-NET architecture.
 5. Segmentation with K-means clustering and U-NET architecture: This approach combines the K-means clustering method with the U-NET architecture to perform image segmentation. The K-means algorithm is used to cluster the labels in the image into different regions, and then the U-NET model is trained to segment each region.
 6. Segmentation with DBSCAN clustering and U-NET architecture: This approach combines the DBSCAN clustering method with the U-NET architecture to perform image segmentation. The DBSCAN algorithm is used to cluster the labels in the image into different regions, and then the U-NET model is trained to segment each region.
