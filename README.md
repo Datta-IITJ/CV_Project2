@@ -45,7 +45,6 @@ Here is the loss plot of Resnet with UNET model:
   <img src="Output_images/RESNETNET50_withUNET_Loss.png" alt="image_description" width="400"/><br>
  </p><br>
  
- ## Evaluation Metrics:
  For the evaluation, we have found out the IOU score, Dice score and the Hausdorff distance.
  
  | Model | Avg IOU score | Med IOU score | Avg Dice score | Med Dice score | Avg Hausdorff distance | Med Hausdorff distance |
