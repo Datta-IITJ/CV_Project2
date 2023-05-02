@@ -33,3 +33,7 @@ Here is the loss plot of Densenet with UNET model:
 <p align="center">
   <img src="Output_images/DENSENET_withUNET_LOSS.png" alt="image_description" width="400"/><br>
  </p><br>
+Here is the loss plot of Resnet with UNET model:
+<p align="center">
+  <img src="Output_images/RESNETNET50_withUNET_Loss.png" alt="image_description" width="400"/><br>
+ </p><br>
