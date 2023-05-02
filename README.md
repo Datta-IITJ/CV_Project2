@@ -11,8 +11,12 @@ Image segmentation is an important problem in computer vision that involves divi
 <p align="center">
   <img src="Output_images/DENSENET_withUNET_finaloutput2.png" alt="image_description" width="400"/><br>
  </p><br>
-4. Using the RESNET50 Model along with the U-NET architecture: This method uses the RESNET50 model as the backbone for the U-NET architecture.<br>
-5. Segmentation with K-means clustering and U-NET architecture: This approach combines the K-means clustering method with the U-NET architecture to perform image segmentation. The K-means algorithm is used to cluster the labels in the image into different regions, and then the U-NET model is trained to segment each region.
-6. Segmentation with DBSCAN clustering and U-NET architecture: This approach combines the DBSCAN clustering method with the U-NET architecture to perform image segmentation. The DBSCAN algorithm is used to cluster the labels in the image into different regions, and then the U-NET model is trained to segment each region.
-7. SegNET with VGG16 Architecture: SegNET is another deep learning architecture that is specifically designed for image segmentation. It consists of an encoder network that downsamples the image and a decoder network that upsamples the image. The architecture uses pooling indices from the encoder network to perform upsampling in the decoder network. In this case VGG16  is used as backbone.
-8. SegNET with Mobilenet Architecture: In this architecture of Segnet, Mobilenet is used as backbone.
+3. Using the RESNET50 Model along with the U-NET architecture: This method uses the RESNET50 model as the backbone for the U-NET architecture.<br>
+<p align="center">
+  <img src="Output_images/RESNETNET50_withUNET_finaloutput1.png" alt="image_description" width="400"/><br>
+ </p><br>
+
+4. Segmentation with K-means clustering and U-NET architecture: This approach combines the K-means clustering method with the U-NET architecture to perform image segmentation. The K-means algorithm is used to cluster the labels in the image into different regions, and then the U-NET model is trained to segment each region.
+7. Segmentation with DBSCAN clustering and U-NET architecture: This approach combines the DBSCAN clustering method with the U-NET architecture to perform image segmentation. The DBSCAN algorithm is used to cluster the labels in the image into different regions, and then the U-NET model is trained to segment each region.
+8. SegNET with VGG16 Architecture: SegNET is another deep learning architecture that is specifically designed for image segmentation. It consists of an encoder network that downsamples the image and a decoder network that upsamples the image. The architecture uses pooling indices from the encoder network to perform upsampling in the decoder network. In this case VGG16  is used as backbone.
+9. SegNET with Mobilenet Architecture: In this architecture of Segnet, Mobilenet is used as backbone.
