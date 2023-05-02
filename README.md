@@ -46,7 +46,7 @@ Here is the loss plot of Resnet with UNET model:
  </p><br>
  
  
- | Sl | Avg IOU score | Med IOU score | Avg Dice score | Med Dice score | Avg Hausdorff distance | Med Hausdorff distance |
+ | Model | Avg IOU score | Med IOU score | Avg Dice score | Med Dice score | Avg Hausdorff distance | Med Hausdorff distance |
 | --- | --- | --- | --- | --- | --- | --- |
 | Segmentation with normal UNET Architecture | 0.4157 | 0.4189 | 0.325 | 0.302 | 46.281 | 42.168 |
 | Segmentation with DenseNet121 and UNet Architecture | 0.9382 | 0.9408 | 0.453 | 0.413 | 31.138 | 29.176 |
