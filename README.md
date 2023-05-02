@@ -41,7 +41,9 @@ Name of Students:
 <p align="center">
   <img src="Output_images/p2.png" alt="image_description" width="400"/><br>
  </p><br>
+
 ## Evaluation Metrics: 
+
 Here is the loss plot of Densenet with UNET model:
 <p align="center">
   <img src="Output_images/DENSENET_withUNET_LOSS.png" alt="image_description" width="400"/><br>
