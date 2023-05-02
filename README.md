@@ -28,3 +28,8 @@ Image segmentation is an important problem in computer vision that involves divi
 
 6. SegNET with VGG16 Architecture: SegNET is another deep learning architecture that is specifically designed for image segmentation. It consists of an encoder network that downsamples the image and a decoder network that upsamples the image. The architecture uses pooling indices from the encoder network to perform upsampling in the decoder network. In this case VGG16  is used as backbone.
 9. SegNET with Mobilenet Architecture: In this architecture of Segnet, Mobilenet is used as backbone.
+## Evaluation Metrics: 
+Here is the loss plot of Densenet with UNET model:
+<p align="center">
+  <img src="Output_images/DENSENET_withUNET_LOSS.png" alt="image_description" width="400"/><br>
+ </p><br>
