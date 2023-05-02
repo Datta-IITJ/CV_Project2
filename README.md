@@ -1,5 +1,4 @@
 # CV_Project 2
-
 ## Comparative Analysis of Image Segmentation<br>
 
 ### Overview
