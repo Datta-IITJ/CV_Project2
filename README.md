@@ -7,7 +7,7 @@ Image segmentation is an important problem in computer vision that involves divi
 <p align="center">
   <img src="Output_images/SegmentationwithUNET_groundtruth_finaloutput3.png" alt="image_description" width="400"/><br>
  </p>
-2. Using the DenseNet121 Model along with the U-NET architecture: DenseNet is another deep learning architecture that has shown good performance for image segmentation. In this approach, the DenseNet121 model is used as the backbone for the U-NET architecture.
+2. Using the DenseNet121 Model along with the U-NET architecture: DenseNet is another deep learning architecture that has shown good performance for image segmentation. In this approach, the DenseNet121 model is used as the backbone for the U-NET architecture.<br>
 <p align="center">
   <img src="Output_images/DENSENET_withUNET_finaloutput2.png" alt="image_description" width="400"/><br>
  </p><br>
