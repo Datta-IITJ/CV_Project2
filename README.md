@@ -44,3 +44,12 @@ Here is the loss plot of Resnet with UNET model:
 <p align="center">
   <img src="Output_images/RESNETNET50_withUNET_Loss.png" alt="image_description" width="400"/><br>
  </p><br>
+ 
+ 
+ | Sl | Avg IOU score | Med IOU score | Avg Dice score | Med Dice score | Avg Hausdorff distance | Med Hausdorff distance |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 0.4157 | 0.4189 | 0.325 | 0.302 | 46.281 | 42.168 |
+| 2 | 0.9382 | 0.9408 | 0.453 | 0.413 | 31.138 | 29.176 |
+| 3 | 0.8082 | 0.8109 | 0.438 | 0.426 | 25.689 | 30.256 |
+| 4 | 0.6882 | 0.6908 | 0.312 | 0.296 | 41.544 | 43.514 |
+| 5 | 0.4182 | 0.4203 | 0.296 | 0.215 | 45.148 | 47.134 |
