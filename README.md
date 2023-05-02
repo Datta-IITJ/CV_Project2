@@ -46,10 +46,12 @@ Here is the loss plot of Resnet with UNET model:
  </p><br>
  
  
- | Methods used | Avg IOU score | Med IOU score | Avg Dice score | Med Dice score | Avg Hausdorff distance | Med Hausdorff distance |
+ | Model | Avg IOU score | Med IOU score | Avg Dice score | Med Dice score | Avg Hausdorff distance | Med Hausdorff distance |
 | --- | --- | --- | --- | --- | --- | --- |
 | Segmentation with normal UNET Architecture | 0.4157 | 0.4189 | 0.325 | 0.302 | 46.281 | 42.168 |
 | Segmentation with DenseNet121 and UNet Architecture | 0.9382 | 0.9408 | 0.453 | 0.413 | 31.138 | 29.176 |
 | Segmentation with Resnet50 and UNet Architecture | 0.8082 | 0.8109 | 0.438 | 0.426 | 25.689 | 30.256 |
 | Segmentation with Kmeans and UNet Architecture | 0.6882 | 0.6908 | 0.312 | 0.296 | 41.544 | 43.514 |
 | Segmentation with DBSCAN and UNet Architecture | 0.4182 | 0.4203 | 0.296 | 0.215 | 45.148 | 47.134 |
+##Consclusion:
+Image segmentation is a crucial task in computer vision, and various approaches have been proposed in recent years. Deep learning-based approaches, such as fully convolutional networks and semantic segmentation, have shown promising results in accurately segmenting images. In this project, two approaches have been explored: K-Nearest Neighbors and Semantic Segmentation using DeepLab. Preliminary results indicate that both approaches have their strengths and weaknesses and require further experimentation and evaluation. As for future work, exploring other deep learning-based approaches and evaluating their performance on the given dataset would be beneficial.
