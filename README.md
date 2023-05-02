@@ -1,7 +1,7 @@
 # CV_Project 2
-## Comparative Analysis of Image Segmentation<br>
+# Comparative Analysis of Image Segmentation<br>
 
-### Overview
+## Overview
 Image segmentation is an important problem in computer vision that involves dividing an image into meaningful regions or objects. In this report, we provide an overview of the different techniques and algorithms used for image seg-mentation where we apply a comparative analysis of differ-ent deep learning methods. We modified the U-Net standard architecture and compared these architectures. We have also generated image labels for this segmentation process.
 
 
@@ -11,7 +11,7 @@ Name of Students:
 3. Dattatreyo Roy(M22CS060)
 
 
-### Approaches used and Results:
+## Approaches used and Results:
 1. Using the Original U-NET Architecture: The U-NET architecture is a popular deep learning architecture for image segmentation that was introduced in 2015. It consists of a contracting path that down samples the image and a symmetric expanding path that up samples the image.
 <p align="center">
   <img src="Output_images/SegmentationwithUNET_groundtruth_finaloutput3.png" alt="image_description" width="400"/><br>
@@ -44,7 +44,7 @@ Name of Students:
   <img src="Output_images/p2.png" alt="image_description" width="400"/><br>
  </p><br>
 
-### Evaluation Metrics: 
+## Evaluation Metrics: 
 
 Here is the loss plot of Densenet with UNET model:
 <p align="center">
@@ -65,5 +65,5 @@ Here is the loss plot of Resnet with UNET model:
 | Segmentation with Kmeans and UNet Architecture | 0.6882 | 0.6908 | 0.312 | 0.296 | 41.544 | 43.514 |
 | Segmentation with DBSCAN and UNet Architecture | 0.4182 | 0.4203 | 0.296 | 0.215 | 45.148 | 47.134 |
 
-### Conclusion:
+## Conclusion:
 Image segmentation is a crucial task in computer vision, and various approaches have been proposed in recent years. Deep learning-based approaches, such as fully convolutional networks and semantic segmentation, have shown promising results in accurately segmenting images. In this project, two approaches have been explored: K-Nearest Neighbors and Semantic Segmentation using DeepLab. Preliminary results indicate that both approaches have their strengths and weaknesses and require further experimentation and evaluation. As for future work, exploring other deep learning-based approaches and evaluating their performance on the given dataset would be beneficial.
